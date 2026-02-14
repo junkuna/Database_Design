@@ -11,6 +11,7 @@
  nals who advise clients on investment opportunities, and developers seeking areas with growth p
  otential. The system may also be valuable for individual homeowners wishing to assess the mark
  et value of their property based on local amenities.
+ 
  The problem that needs to be solved is the fragmentation of property and environmental data that
  currently requires users must navigate multiple websites for applications such as one for listings,
  another for schools, and others for nearby shops, transportation routes, or parks considered as a f
@@ -22,12 +23,14 @@
  hts into the surroundings of each property that will cause changes in housing prices. This will pro
  vide an interactive process of identifying the impact of housing prices for data decision-making f
  or investors.
+ 
  The system’s uniqueness lies in its focus on environmental accessibility and livability. It evaluate
  s proximity to essential amenities such as schools, restaurants, and public transport. The inclusio
  n of metrics such as distance from property and surroundings of facilities, allows users to measur
  e quality as well as quantity. Additionally, since the Real Estate Environmental Insight System w
  ill be developed as a prototype, it can be customized to include specialized ranking algorithms or
  unique local datasets that may not be available in existing systems.
+ 
  The scope of the prototype will focus on the core data integration and visualization function of a
  relational database system. Specifically, the prototype will allow users to search for properties an
  d view detailed information about their surrounding facilities, including at least one example of e
