@@ -102,17 +102,27 @@
    - `10_retore_populated_database.sql`
 3. Run any query scripts you want (examples below)
 
-- Analytics / reporting:
- - `11_properties_rent_by_school.sql` — rent + school district
- - `12_properties_rent_by_near_park.sql` — properties near parks (<10 min)
- - `13_properties_rent_by_neighborhood.sql` — count + avg rent by neighborhood
- - `14_properties_rent_by_market.sql` — market proximity stats + avg rent by neighborhood
- - `15_properties_restaurant_list.sql` — restaurant count + avg minutes per property
- - `16_properties_by_facilities_list.sql` — properties meeting multi-facility time thresholds
+- **Analytics / reporting:**
+ -  `11_properties_rent_by_school.sql` — rent + school district
+ -  `12_properties_rent_by_near_park.sql` — properties near parks (<10 min)
+ -  `13_properties_rent_by_neighborhood.sql` — count + avg rent by neighborhood
+ -  `14_properties_rent_by_market.sql` — market proximity stats + avg rent by neighborhood
+ -  `15_properties_restaurant_list.sql` — restaurant count + avg minutes per property
+ -  `16_properties_by_facilities_list.sql` — properties meeting multi-facility time thresholds
 
-- CRUD / operations:
- - `50_add_a_new_property_with_facilities.sql` — add a new property + facility links
- - `51_transfer_property_rent_and_bedrooms.sql` — update rent/bed/bath
- - `54_transfer_property_school_district.sql` — change school district assignment
- - `52_delete_property_and_related_facilities.sql` — delete a property and its related links
+- **CRUD / operations:**
+ -  `50_add_a_new_property_with_facilities.sql` — add a new property + facility links
+ -  `51_transfer_property_rent_and_bedrooms.sql` — update rent/bed/bath
+ -  `54_transfer_property_school_district.sql` — change school district assignment
+ -  `52_delete_property_and_related_facilities.sql` — delete a property and its related links
 
+## Skills Demonstrated
+ - ERD design and relational modeling (1:N + M:N relationships)
+
+ - Junction tables with additional attributes (minutes-to-facility)
+
+ - SQL analytics (GROUP BY, aggregates, filtering, ordering)
+
+ - Operational SQL scripts that reflect real workflows (insert/update/delete/transfer)
+   
+ - Thinking about query correctness (duplicate rows from multi-joins) and maintainability
